@@ -1,50 +1,57 @@
-# React + TypeScript + Vite
+## Sobre mim: 
+### Olá, me chamo Fernanda ! 👋 
+ Sou desenvolvedora Front-end React.js com conhecimentos em JavaScript e TypeScript. </br>
+ Formada em Marketing e com especialização em marketing digital estou atualmente em especialização em Segurança da Informação pela FMU
+### Contatos:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div>
+<a href = "mailto:fernandadelleprane@gmail.com"><img loading="lazy" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank" ></a>
+<a href="https://www.linkedin.com/in/fernanda-delleprane" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>   
+</div>
 
-Currently, two official plugins are available:
+# Projeto Front end de Cadastro de Clientes
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto é a interface front-end para o backend de cadastro, listagem e deleção de clientes, que pode ser encontrado em[ Clients-CRUD-backend](https://github.com/delleprane/Clients-CRUD-backend). 
 
-## Expanding the ESLint configuration
+## Tecnologias Utilizadas
+- <img width=40px src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" /> React.js
+- <img width=40px src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" /> Vite.js
+- <img width=40px src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" /> Tailwind CSS
+- <img width=40px src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain.svg" /> Axios
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+  ## 🚀 Início Rápido
+Siga as instruções abaixo para configurar e executar o projeto em seu ambiente local.
 
-- Configure the top-level `parserOptions` property like this:
+- **Clone o Repositório** :
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+git clone https://github.com/delleprane/Clients-CRUD-frontend.git
+cd clients-crud-frontend
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
 ```
+
+- **Instale as Dependências** :
+
+```
+
+npm install
+
+```
+
+- **Configuração do Ambiente** :
+
+```
+
+baseURL: "https://clients-crud-backend.onrender.com"
+
+```
+
+## Scripts 
+
+- npm run dev: Inicia o servidor de desenvolvimento.
+- npm run build: Gera a versão de produção do projeto.
+- npm run start: Inicia o projeto em modo de produção.
+
+
+
